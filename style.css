@@ -1,0 +1,156 @@
+ .header{
+    background-color: #ddd;
+}
+.logo img{
+    width: 100px;
+}
+ul{
+    display: flex;
+}
+ul li{
+  list-style: none;
+}
+ul li a{
+    display: inline-block;
+text-decoration: none;
+padding: 12px 15px;
+color: black;
+
+}
+ul li a:hover{
+    color: blue;
+    border-bottom: 3px solid blue;
+}
+.first{
+    color: blue;
+    border-bottom: 3px solid blue;
+}
+.button a{
+   border-radius: 20px;
+   margin-top: 15px;
+   border: none;
+}
+.button a:hover{
+    color: blue;
+    border: none;
+}
+/*banner Section*/
+.banner-section{
+    background: #009fff1f;
+}
+.banner-content{
+   padding: 102px; 
+}
+.banner-img img{
+    width: 590px;
+border-radius: 50% 0 50% 50%;
+height: 550px;
+margin-left: 95px;
+}
+.banner-content p{
+    margin: 25px 0px;
+    color: #8e8989;
+}
+/*Service Section*/
+.service-product{}
+.service-product span{
+    color: #0000ff75;
+font-size: 20px;
+}
+.service-product h1{
+    font-weight: 600;
+margin: 13px 0;
+}
+.service-product p{
+    margin: 25px 0px;
+    color: #8e8989;
+}
+.span{
+    position: relative;
+   }
+   .span::before{
+       content: "";
+       position: absolute;
+       width: 10%;
+       height: 4px;
+       background-color: #00000085;
+       top: 111%;
+       left: 0;             
+     }
+.service-header{
+    font-weight: 600;
+    padding: 15px 0px;
+    font-size: 21px;
+}
+.card-icon{
+    width: 80px;
+    height: 80px;
+    background: #0000ffa8;
+    color: #fff;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    font-size: 18px;
+    border-radius: 50% 50% 50% 0%;
+    position: relative;
+  }
+  .card-icon::before{
+    content: "";
+    position: absolute;
+    width: 58%;
+    height: 2px;
+    background-color: #0000ff7d;
+    top: 111%;
+    left: 0;             
+  } 
+.card-pgh{
+    color: #8e8989;
+    font-size: 20px;
+}
+.service-card:hover{
+    background-color: #00fc;
+    color: white;
+    
+}
+/*footer Section*/
+.FooterSection{
+    background: #08256aa8;
+    padding: 200px 200px;
+}
+.footer-section h6{
+    font-size: 23px;
+}
+span{
+ position: relative;
+}
+span::before{
+    content: "";
+    position: absolute;
+    width: 77%;
+    height: 4px;
+    background-color: #fff;
+    top: 111%;
+    left: 0;             
+  }
+ 
+.footer-section p{
+    font-size: 20px;
+}
+.box{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: blue;
+}
+/*
+::before{
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: blue;
+    
+}
